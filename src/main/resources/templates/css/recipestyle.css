@@ -1,0 +1,64 @@
+.standardimage
+{
+    height:300px;
+    /*margin-right:1%;*/
+    width: 100%;
+    /*height: auto;*/
+    float: left;
+    margin-top: 25px;
+    border: #fbc2eb  3px solid ;
+
+
+}
+
+body
+{
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+ }
+
+.rozhaone
+{
+    font-family: 'Rozha One', serif;
+}
+
+h1{
+    text-align: center;
+    color: darkorange;
+    font-size: xx-large;
+
+}
+
+.well1
+{
+    background-color: #fbc2eb;
+}
+
+.well2
+{
+    background-color: #a6c1ee;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.flagimage
+{
+    height: 60px;
+    width: 100px;
+    display: block;
+    float: left;
+}
+.roboto
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+.country
+{
+    float: right;
+}
+
+
+

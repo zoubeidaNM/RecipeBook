@@ -1,0 +1,62 @@
+
+.merriweather
+{
+    font-family: 'Merriweather', serif;
+}
+
+.heading1
+{
+    font-size: 50px;
+    color: black;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    text-decoration: blink;
+}
+body
+{
+    font-family: 'Merriweather', serif;
+    background-image:linear-gradient(to left, #007991, #78ffd6);
+}
+.standardimage
+{
+    height:400px;
+    width: 100%;
+    margin: auto;
+    float: inherit;
+    border:3px solid yellow;
+    margin-top: 27px;
+}
+.bold
+{
+}
+.flagimage
+{
+    height:50px;
+    width: 50px;
+    display: block;
+    float: left;
+    /*margin-left: auto;
+    margin-right: auto*/
+}
+
+.country
+{
+    float: right;
+}
+
+
+.well1
+{
+    background-color: lightyellow;
+}
+
+.heading2
+{
+    font-weight: bold;
+    text-align: left;
+    font-size: medium;
+}
+.roboto
+{
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,58 @@
+.merriweather
+{
+    font-family: 'Merriweather', serif;
+}
+
+.heading1
+{
+    font-size: xx-large;
+    color: red;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+body
+{
+    font-family: 'Merriweather', serif;
+    background-image:linear-gradient(to left, #007991, #78ffd6);
+}
+.standardimage
+{
+    height:200px;
+    width: 500px;
+    margin: auto;
+    float: left;
+    border:3px solid red;
+    margin-top: 27px;
+}
+.bold
+{
+}
+.flagimage
+{
+    margin: auto;
+    float: left;
+    height: 100%;
+    width:100%;
+}
+.well1
+{
+    background-color: lightsalmon;
+}
+
+.well2
+{
+    height: 100px;
+    width: 100px;
+}
+.heading2
+{
+    font-weight: bold;
+    text-align: left;
+    font-size: medium;
+}
+
+.roboto
+{
+    font-family: 'Roboto', sans-serif;
+}
