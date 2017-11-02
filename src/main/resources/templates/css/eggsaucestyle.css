@@ -59,4 +59,10 @@ body
 .roboto
 {
     font-family: 'Roboto', sans-serif;
+    color: indianred;
+}
+
+.navbar-default {
+    background-color: antiquewhite;
+    border-color: #E7E7E7;
 }
