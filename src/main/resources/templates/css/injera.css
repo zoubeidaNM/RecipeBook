@@ -117,3 +117,51 @@ h1 {
 {
     float: right;
 }
+
+.menu_title
+{
+    text-align: center;
+    font-size: 10em;
+    color: darkblue;
+}
+
+.menubg{
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);;
+}
+
+.menu_image
+{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.price
+{
+    text-align: right;
+    color:black;
+
+}
+.ul_menu {
+    display: block;
+    list-style-type: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.li_menu {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.a_menu
+{
+    color:black;
+}
+
+
