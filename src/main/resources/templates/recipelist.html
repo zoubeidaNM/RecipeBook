@@ -1,47 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="www.thymeleaf.org">
 <head>
     <title>Bootstrap Example</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/injera.css">
+    <link rel="stylesheet" href="css/injera.css"/>
 </head>
 <body class="rclistbg">
 <!-- collapsable navbar begin -->
-<nav class="navbar navbar-default roboto">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="recipebook.html">Recipe Book</a>
-        </div>
+<div th:replace="base :: navlinks('list')"></div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li ><a href="recipebook.html">home</a></li>
-                <li class="active"><a href="recipelist.html">Recipes List<span class="sr-only">(current)</span></a></li>
-                <li ><a href="recipebookmenu.html">Menu</a></li>
-                <li><a href="crabbypage.html">Crabcake</a></li>
-                <li><a href="wings.html">Wings</a></li>
-                <li><a href="makhrouds.html">Makhrouds</a></li>
-                <li><a href="eggsauce.html">Egg sauce</a></li>
-                <li><a href="injera.html">Injera</a></li>
-                <li><a href="gulabjamun.html">Gulab Jamun</a></li>
-                <li role="separator" class="divider"></li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</nav>
 <!-- collapsable navbar end -->
 <div class="container">
     <div class="row">
@@ -51,7 +22,7 @@
                     <div class="listimage">
                         <img class="listim"
                              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk94XdElNxfn5o6_zJLm3ZezmtqJYeuS5BvSwPk_iab3nxKJ3l0w"
-                             alt="crabcake">
+                             alt="crabcake"/>
                     </div>
                     <div class="caption">
                         <p>Crabcake recipe (USA)</p>
@@ -65,7 +36,7 @@
                     <div class="listimage">
                         <img class="listim"
                              src="https://upload.wikimedia.org/wikipedia/commons/9/91/Crispy_Chicken_Wings.png"
-                             alt="wings">
+                             alt="wings"/>
                     </div>
                     <div class="caption">
                         <p>Wings recipe (China)</p>
@@ -85,7 +56,7 @@
                     <div class="listimage">
                         <img class="listim"
                              src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Makrouds.JPG"
-                             alt="makhrouds">
+                             alt="makhrouds"/>
                     </div>
                     <div class="caption">
                         <p>Makhrouds recipe (Tunisia)</p>
@@ -99,7 +70,7 @@
                     <div class="listimage">
                         <img class="listim"
                              src="https://thedepanneur.ca/wp-content/uploads/2016/08/jazmaz-550x321.jpg"
-                             alt="egg sauce">
+                             alt="egg sauce"/>
                     </div>
                     <div class="caption">
                         <p>Egg sauce recipe (Nigeria)</p>
@@ -118,7 +89,7 @@
                     <div class="listimage">
                         <img class="listim"
                              src="https://c1.staticflickr.com/3/2498/3729721989_fdb34bc030_z.jpg?zz=1"
-                             alt="injera">
+                             alt="injera"/>
                     </div>
                     <div class="caption">
                         <p>Injera recipe (Ethiopia)</p>
@@ -132,7 +103,7 @@
                     <div class="listimage">
                         <img class="listim"
                              src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Gulab-jamun-wallpaper-1.jpg"
-                             alt="gulab jamun">
+                             alt="gulab jamun"/>
                     </div>
                     <div class="caption">
                         <p>Gulab Jamun recipe (India)</p>
